@@ -1,4 +1,4 @@
-# script-zap
+# script-zap | PT-BR
 
 ***
 
@@ -29,4 +29,39 @@
 
 ***
 
-Obs: Essa automação usa o Chrome como navegador, se não houver o chrome instalado na máquina, será necessário fazer essa instalação também, ou corrigir o código para outro navegador.
+Obs: Essa automação usa o Chrome como navegador, se não houver o chrome instalado na máquina, será necessário fazer essa instalação ou mudar o código para outro navegador.
+
+<br><br><br><br><br>
+
+# script-zap | EN
+
+***
+
+### Automation that sends movie scripts in whatsapp to contact or group.
+
+* This project was made with the purpose of deepen my knowledge of python and the framework selenium, and at the same time have fun making something different;
+* It will be only necessary to inform the movie chosen, the contact or group name and read the QR code (beside reading the QR, everything is made on the terminal);
+* Yes, already exists a project with the same objective, i got the idea and made a similar one using python and the selenium framework.
+
+***
+
+#### How to install the dependencies and run the project:
+
+1. First, it is necessary to have python and pip installed:
+    1. Install python through https://www.python.org/downloads/ and pip should install automatically.
+
+
+2. Go to the local repository folder and install the dependencies that are located in the requirements.txt with the command:
+    <br>```pip install -r requirements.txt```
+
+
+3. Execute main.py with the command:
+    <br>```python main.py```
+    <br><sub>depending on your python version, use "python3" instead of "python"</sub>
+
+
+4. Don`t forget to read the QR and have fun.
+
+***
+
+Obs: This automation use Chrome as browser, if you haven`t chrome installed , remember to install or change the code to another browser.
