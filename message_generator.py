@@ -11,12 +11,13 @@ class Message:
 
         option = int(input("Type the corresponding number for the movie script:  "))
 
-        script = None
+        movie = None
 
         for y in data:
             if y['id'] == option:
-                script = y
+                movie = y
                 break
 
-        return script
+        split_script = movie['script'].split("\n")
 
+        return split_script

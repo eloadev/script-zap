@@ -1,10 +1,14 @@
 from message_generator import Message
-from whatsapp_automation import AutomacaoZap
+from whatsapp_automation import AutomationZap
+
+print("## WELCOME TO THE WHATSAPP MOVIE SCRIPT SENDER ##\n")
 
 message = Message()
-movie = message.define_message()
-script_text = movie['script']
-print(script_text)
+movie_script = message.define_message()
 
-automacao = AutomacaoZap(script_text)
-automacao.envia_mensagem(script_text)
+contact = input("\nContact to send the message: ")
+
+print("\nDon`t forget to SCAN the QR code and ENTER WhatsApp")
+
+automation = AutomationZap()
+automation.send_message(movie_script, contact)
