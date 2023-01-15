@@ -6,9 +6,7 @@ print("## WELCOME TO THE WHATSAPP MOVIE SCRIPT SENDER ##\n")
 message = Message()
 movie_script = message.define_message()
 
-contact = input("\nContact to send the message: ")
-
-print("\nDon`t forget to SCAN the QR code and ENTER WhatsApp")
+contact = input("\nContact or group name: ")
 
 automation = AutomationZap()
 automation.send_message(movie_script, contact)
