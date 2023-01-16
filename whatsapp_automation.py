@@ -33,6 +33,3 @@ class AutomationZap:
         for x in range(len(message)):
             message_input_box.clear()
             message_input_box.send_keys(message[x] + Keys.ENTER)
-
-        sleep(120)
-        driver.quit()
